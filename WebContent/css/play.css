@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+.result{
+	border-collapse:  collapse;
+}
+
+.result td,th{
+	text-align:center;
+	border:#DDDDDD solid 1px;
+	padding: 8px 16px;
+	width:200px;
+}
+
+.result tr:nth-child(odd) {
+	background:#EEEEEE;
+	}
+
+@media screen and (max-width:1024px){
+body{
+	font-size:3.5vw;
+}
+
+.result td,th{
+	padding: 1vw 2vw;
+	width:30vw;
+}
+
+input{
+	width:50vw;
+	height:6vw;
+	margin-top: 3vw;
+}
+
+button{
+	width:30vw;
+	height:8vw;
+	font-size:4vw;
+	margin:0vw 0vw;
+}
+
+table{
+	font-size:4vw;
+}
+
+}
